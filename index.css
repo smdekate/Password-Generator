@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background: url("https://images.unsplash.com/photo-1493129922668-fcb1a8514643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1225&q=80");
+    background-size: cover;
+}
+
+.container {
+    width: 400px;
+    background: #1F2937;
+    margin: 50px auto;
+    padding: auto 30px;
+    padding: 1.5em;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#white-heading {
+    margin-top: 50px;
+    color: white;
+    margin-bottom: -10px;
+}
+
+#green-heading {
+    margin-top: 0;
+    color: #4ADF86;
+    margin-bottom: 0;
+}
+
+#title {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+button {
+    background: #10B981;
+    border: none;
+    margin: auto;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+#line {
+    margin: 20px 10px;
+    border: 1px solid #2F3E53;
+}
+
+#password-div {
+    display: flex;
+}
+
+#password-div > div {
+    width: 211px;
+    height: 36px;
+    background: #273549;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin: auto 10px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+#password-div > div > p {
+    color: #55F991;
+    /* font-size: 20px; */
+    margin: auto;
+    padding: 10px 20px;
+}
+
+footer {
+    color: lightgray;
+    font-style: arial;
+    font-size: small;
+    margin-left: auto;
+}
